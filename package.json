@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-source-dogapi",
+  "version": "1.0.0",
+  "description": "Gatsby source plugin to add thedogapi.com datas to your website",
+  "author": "Kevin Legrand <legrd.kevin@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Manoz/gatsby-source-dogapi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manoz/gatsby-source-dogapi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "thedogapi"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "query-string": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "8.2.6",
+    "babel-preset-env": "1.7.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0"
+  }
+}
