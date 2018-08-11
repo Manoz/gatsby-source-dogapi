@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-dogapi",
-  "version": "1.0.0",
+  "version": "2.0.0-beta.01",
   "description": "Gatsby source plugin to add thedogapi.com datas to your website",
   "author": "Kevin Legrand <legrd.kevin@gmail.com>",
   "bugs": {
